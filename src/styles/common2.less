@@ -1,0 +1,275 @@
+.main-panel {
+  height: 100%;
+  width: 100%;
+
+  .top-tools {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    .search-text {
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+
+      .search-title {
+        flex: 6;
+        height: 100%;
+        line-height: 60px;
+        text-align: center;
+        text-align: right;
+        vertical-align: middle;
+        color: #fff;
+        font-size: 14px;
+        font-family: Source Han Sans CN;
+      }
+
+      .search-content {
+        z-index: 10;
+        flex: 9.5;
+        position: relative;
+
+        .search-input {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}
+
+.search-buttons-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  background-color: transparent !important;
+  border: 1px solid #1fa6d4;
+  color: #fff;
+}
+
+button:hover {
+  color: #57a3f3;
+}
+
+/deep/.ivu-input,
+.ivu-input-small {
+  background-color: transparent;
+  border: 1px solid #1fa6d4;
+  color: #fff;
+  font-size: 12px;
+  font-family: Source Han Sans CN;
+}
+
+.bottom-content {
+  height: calc(~'100% - 60px');
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px #1fa6d4;
+  border: 1px solid #1fa6d4;
+}
+
+/deep/.table-div {
+  height: calc(~'100% - 36px');
+}
+
+/deep/.ivu-table {
+  background: transparent !important;
+}
+
+
+
+/deep/.ivu-table-wrapper-with-border {
+  border: unset;
+}
+
+
+/deep/.ivu-table td {
+  background: transparent;
+  color: white;
+  min-width: 0;
+  height: 50px;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+/deep/.ivu-page-prev,
+/deep/.ivu-page-next,
+/deep/.ivu-page-options-elevator input {
+  background-color: transparent;
+  color: #fff;
+}
+
+/deep/.ivu-page-options-elevator input {
+  border: 1px solid #1fa6d4;
+}
+
+/deep/.ivu-select-selection {
+  border: 1px solid #1fa6d4;
+  background: transparent;
+  color: #fff;
+}
+
+/deep/.ivu-select-dropdown {
+  background-color: rgb(30, 42, 69);
+  border: 1px solid #fff;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/deep/.ivu-select {
+  background-color: transparent;
+  color: #fff;
+}
+
+/deep/.ivu-select-item {
+  background-color: transparent;
+  color: #fff;
+}
+
+/deep/.ivu-select-item-selected,
+.ivu-select-item-selected:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+/deep/.ivu-page,
+.mini {
+  color: #fff;
+}
+
+/deep/.ivu-page-item {
+  color: #fff;
+  background-color: transparent;
+}
+
+/deep/.ivu-page-item a {
+  color: #fff;
+}
+
+/deep/.ivu-table-column-center {
+  background: transparent;
+  color: #fff;
+  border: unset;
+}
+
+/deep/.ivu-table-wrapper-with-border {
+  border: unset;
+  height: 100%;
+}
+
+/deep/.ivu-table-row>td:nth-child(2) {
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #2aa2ff;
+}
+
+/deep/.ivu-table-row>td:nth-child(3) {
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #32eedb;
+}
+
+/deep/.ivu-table-row>td:nth-child(4) {
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #ffc029;
+}
+
+/deep/.ivu-table-row>td {
+  font-size: 14px;
+  font-family: Source Han Sans CN;
+  border: unset;
+}
+
+/deep/.ivu-btn-small {
+  margin: 0 3px;
+
+  span {
+    font-size: 12px !important;
+  }
+}
+
+/deep/.page {
+  margin-right: 10px;
+}
+
+/deep/.ivu-table-border::after {
+  background: unset;
+}
+
+/deep/.ivu-table-border::before {
+  background: #1fa6d4;
+}
+
+/deep/.ivu-table {
+  overflow: auto;
+}
+
+/deep/.ivu-table-overflowX{
+  overflow: hidden;
+}
+
+/deep/.ivu-table::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/deep/.ivu-table::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  box-shadow: inset 0 0 2px #1fa6d4;
+  -webkit-box-shadow: inset 0 0 2px #1fa6d4;
+  background: #1fa6d4;
+}
+
+/deep/.ivu-table::-webkit-scrollbar-button {
+  display: none;
+}
+
+/deep/.ivu-table:before {
+  display: none;
+}
+
+/deep/.page-div {
+  border-top: 1px solid #1fa6d4;
+  // margin-top: -10px;
+  padding: 5px 0;
+}
+
+/deep/.ivu-table-cell {
+  padding: unset;
+}
+
+/deep/.ivu-table-header {
+  height: 40px;
+}
+
+
+.search-buttons-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /deep/.ivu-icon {
+    color: #1fa6d4 !important;
+  }
+}
+
+/deep/.ivu-table-header {
+  height: 40px;
+}

@@ -1,0 +1,308 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "FID": "FID",
+    "OBJECTID": "OBJECTID",
+    "OBJID": "OBJID",
+    "OBJNAME": "OBJNAME",
+    "DEPTCODE1": "DEPTCODE1",
+    "DEPTNAME1": "DEPTNAME1",
+    "DEPTNAME2": "DEPTNAME2",
+    "DEPTCODE3": "DEPTCODE3",
+    "DEPTNAME3": "DEPTNAME3",
+    "BGID": "BGID",
+    "OBJSTATE": "OBJSTATE",
+    "ORDATE": "ORDATE",
+    "NOTE_": "NOTE_",
+    "CHDATE": "CHDATE",
+    "DATASOURCE": "DATASOURCE",
+    "WZMS": "WZMS",
+    "USESTATE": "USESTATE",
+    "MATERIAL": "MATERIAL",
+    "SPEC": "SPEC",
+    "PICTURE": "PICTURE",
+    "MAPSCALE": "MAPSCALE",
+    "DEPTCODE2": "DEPTCODE2",
+    "JDNAME": "JDNAME",
+    "SQNAME": "SQNAME"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4490,
+    "latestWkid": 4490
+  },
+  "fields": [
+    {
+      "name": "FID",
+      "type": "esriFieldTypeOID",
+      "alias": "FID"
+    },
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeInteger",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "OBJID",
+      "type": "esriFieldTypeString",
+      "alias": "OBJID",
+      "length": 16
+    },
+    {
+      "name": "OBJNAME",
+      "type": "esriFieldTypeString",
+      "alias": "OBJNAME",
+      "length": 50
+    },
+    {
+      "name": "DEPTCODE1",
+      "type": "esriFieldTypeString",
+      "alias": "DEPTCODE1",
+      "length": 10
+    },
+    {
+      "name": "DEPTNAME1",
+      "type": "esriFieldTypeString",
+      "alias": "DEPTNAME1",
+      "length": 60
+    },
+    {
+      "name": "DEPTNAME2",
+      "type": "esriFieldTypeString",
+      "alias": "DEPTNAME2",
+      "length": 60
+    },
+    {
+      "name": "DEPTCODE3",
+      "type": "esriFieldTypeString",
+      "alias": "DEPTCODE3",
+      "length": 10
+    },
+    {
+      "name": "DEPTNAME3",
+      "type": "esriFieldTypeString",
+      "alias": "DEPTNAME3",
+      "length": 60
+    },
+    {
+      "name": "BGID",
+      "type": "esriFieldTypeString",
+      "alias": "BGID",
+      "length": 15
+    },
+    {
+      "name": "OBJSTATE",
+      "type": "esriFieldTypeString",
+      "alias": "OBJSTATE",
+      "length": 10
+    },
+    {
+      "name": "ORDATE",
+      "type": "esriFieldTypeDate",
+      "alias": "ORDATE",
+      "length": 8
+    },
+    {
+      "name": "NOTE_",
+      "type": "esriFieldTypeString",
+      "alias": "NOTE_",
+      "length": 100
+    },
+    {
+      "name": "CHDATE",
+      "type": "esriFieldTypeDate",
+      "alias": "CHDATE",
+      "length": 8
+    },
+    {
+      "name": "DATASOURCE",
+      "type": "esriFieldTypeString",
+      "alias": "DATASOURCE",
+      "length": 30
+    },
+    {
+      "name": "WZMS",
+      "type": "esriFieldTypeString",
+      "alias": "WZMS",
+      "length": 200
+    },
+    {
+      "name": "USESTATE",
+      "type": "esriFieldTypeString",
+      "alias": "USESTATE",
+      "length": 10
+    },
+    {
+      "name": "MATERIAL",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAL",
+      "length": 10
+    },
+    {
+      "name": "SPEC",
+      "type": "esriFieldTypeString",
+      "alias": "SPEC",
+      "length": 50
+    },
+    {
+      "name": "PICTURE",
+      "type": "esriFieldTypeString",
+      "alias": "PICTURE",
+      "length": 100
+    },
+    {
+      "name": "MAPSCALE",
+      "type": "esriFieldTypeString",
+      "alias": "MAPSCALE",
+      "length": 50
+    },
+    {
+      "name": "DEPTCODE2",
+      "type": "esriFieldTypeString",
+      "alias": "DEPTCODE2",
+      "length": 10
+    },
+    {
+      "name": "JDNAME",
+      "type": "esriFieldTypeString",
+      "alias": "JDNAME",
+      "length": 254
+    },
+    {
+      "name": "SQNAME",
+      "type": "esriFieldTypeString",
+      "alias": "SQNAME",
+      "length": 254
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "FID": 0,
+        "OBJECTID": 948,
+        "OBJID": "4403110151000948",
+        "OBJNAME": "治安岗亭",
+        "DEPTCODE1": "440311049",
+        "DEPTNAME1": "深圳市公安局龙华分局",
+        "DEPTNAME2": "深圳市公安局龙华分局",
+        "DEPTCODE3": "440311049",
+        "DEPTNAME3": "深圳市公安局龙华分局",
+        "BGID": "44031100800548",
+        "OBJSTATE": "完好",
+        "ORDATE": null,
+        "NOTE_": " ",
+        "CHDATE": null,
+        "DATASOURCE": "实测",
+        "WZMS": "繆仕英口腔诊所 东北方向约5米",
+        "USESTATE": "在用",
+        "MATERIAL": " ",
+        "SPEC": " ",
+        "PICTURE": "\\LH\\01\\0151\\AA_20180905_0338.JPG",
+        "MAPSCALE": " ",
+        "DEPTCODE2": "440311049",
+        "JDNAME": "大浪街道",
+        "SQNAME": "浪口社区"
+      },
+      "geometry": {
+        "x": 114.00007996400007,
+        "y": 22.681902582000077
+      }
+    },
+    {
+      "attributes": {
+        "FID": 1,
+        "OBJECTID": 953,
+        "OBJID": "4403110151000953",
+        "OBJNAME": "治安岗亭",
+        "DEPTCODE1": "440311049",
+        "DEPTNAME1": "深圳市公安局龙华分局",
+        "DEPTNAME2": "深圳市公安局龙华分局",
+        "DEPTCODE3": "440311049",
+        "DEPTNAME3": "深圳市公安局龙华分局",
+        "BGID": "44031100800548",
+        "OBJSTATE": "完好",
+        "ORDATE": null,
+        "NOTE_": " ",
+        "CHDATE": null,
+        "DATASOURCE": "实测",
+        "WZMS": "友联五金交电 东南方向约19米",
+        "USESTATE": "在用",
+        "MATERIAL": " ",
+        "SPEC": " ",
+        "PICTURE": "\\LH\\01\\0151\\AA_20180905_0338.JPG",
+        "MAPSCALE": " ",
+        "DEPTCODE2": "440311049",
+        "JDNAME": "大浪街道",
+        "SQNAME": "浪口社区"
+      },
+      "geometry": {
+        "x": 114.00042403600003,
+        "y": 22.679309949000071
+      }
+    },
+    {
+      "attributes": {
+        "FID": 2,
+        "OBJECTID": 954,
+        "OBJID": "4403110151000954",
+        "OBJNAME": "治安岗亭",
+        "DEPTCODE1": "440311049",
+        "DEPTNAME1": "深圳市公安局龙华分局",
+        "DEPTNAME2": "深圳市公安局龙华分局",
+        "DEPTCODE3": "440311049",
+        "DEPTNAME3": "深圳市公安局龙华分局",
+        "BGID": "44031100800548",
+        "OBJSTATE": "完好",
+        "ORDATE": null,
+        "NOTE_": " ",
+        "CHDATE": null,
+        "DATASOURCE": "实测",
+        "WZMS": "深港水族馆 西南方向约16米",
+        "USESTATE": "在用",
+        "MATERIAL": " ",
+        "SPEC": " ",
+        "PICTURE": "\\LH\\01\\0151\\AA_20180905_0338.JPG",
+        "MAPSCALE": " ",
+        "DEPTCODE2": "440311049",
+        "JDNAME": "大浪街道",
+        "SQNAME": "浪口社区"
+      },
+      "geometry": {
+        "x": 114.00228749600001,
+        "y": 22.67974457300005
+      }
+    },
+    {
+      "attributes": {
+        "FID": 3,
+        "OBJECTID": 981,
+        "OBJID": "4403110151000981",
+        "OBJNAME": "治安岗亭",
+        "DEPTCODE1": "440311049",
+        "DEPTNAME1": "深圳市公安局龙华分局",
+        "DEPTNAME2": "深圳市公安局龙华分局",
+        "DEPTCODE3": "440311049",
+        "DEPTNAME3": "深圳市公安局龙华分局",
+        "BGID": "44031100800546",
+        "OBJSTATE": "完好",
+        "ORDATE": null,
+        "NOTE_": " ",
+        "CHDATE": null,
+        "DATASOURCE": "实测",
+        "WZMS": "金丰烟酒茶 东南方向约10米",
+        "USESTATE": "在用",
+        "MATERIAL": " ",
+        "SPEC": " ",
+        "PICTURE": "\\LH\\01\\0151\\AA_20180905_0338.JPG",
+        "MAPSCALE": " ",
+        "DEPTCODE2": "440311049",
+        "JDNAME": "大浪街道",
+        "SQNAME": "浪口社区"
+      },
+      "geometry": {
+        "x": 114.00307422900005,
+        "y": 22.681370525000034
+      }
+    }
+  ]
+}

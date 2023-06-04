@@ -1,0 +1,33 @@
+html,
+body {
+  overflow: hidden;
+}
+#app {
+  min-height: 100vh;
+}
+.my-kinder-icon {
+  height: 24px !important;
+  width: 24px !important;
+  background: url('../assets/dashboard/kindergarten.png') no-repeat;
+}
+.my-primary-icon {
+  height: 24px !important;
+  width: 21px !important;
+  background: url('../assets/dashboard/primary.png') no-repeat;
+}
+.my-middle-icon {
+  height: 24px !important;
+  width: 21px !important;
+  background: url('../assets/dashboard/middle.png') no-repeat;
+}
+.my-university-icon {
+  height: 24px !important;
+  width: 21px !important;
+  background: url('../assets/dashboard/university.png') no-repeat;
+}
+.unit-style {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #029cfd;
+}
